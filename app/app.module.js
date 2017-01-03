@@ -8,25 +8,25 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require("@angular/core");
-var platform_browser_1 = require("@angular/platform-browser");
-var http_1 = require("@angular/http");
-var app_chart_service_1 = require("./app.chart.service");
-var app_component_1 = require("./app.component");
-var ng2_charts_1 = require("ng2-charts/ng2-charts");
+var core_1 = require('@angular/core');
+var platform_browser_1 = require('@angular/platform-browser');
+var http_1 = require('@angular/http');
+var app_chart_service_1 = require('./app.chart.service');
+var app_component_1 = require('./app.component');
+var ng2_charts_1 = require('ng2-charts/ng2-charts');
 var AppModule = (function () {
     function AppModule() {
     }
+    AppModule = __decorate([
+        core_1.NgModule({
+            imports: [platform_browser_1.BrowserModule, http_1.HttpModule, ng2_charts_1.ChartsModule],
+            declarations: [app_component_1.AppComponent],
+            providers: [app_chart_service_1.AppChartService],
+            bootstrap: [app_component_1.AppComponent]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], AppModule);
     return AppModule;
 }());
-AppModule = __decorate([
-    core_1.NgModule({
-        imports: [platform_browser_1.BrowserModule, http_1.HttpModule, ng2_charts_1.ChartsModule],
-        declarations: [app_component_1.AppComponent],
-        providers: [app_chart_service_1.AppChartService],
-        bootstrap: [app_component_1.AppComponent]
-    }),
-    __metadata("design:paramtypes", [])
-], AppModule);
 exports.AppModule = AppModule;
 //# sourceMappingURL=app.module.js.map
