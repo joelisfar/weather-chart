@@ -1,0 +1,16 @@
+<h1>{{name}}</h1>
+<h2>{{description}}</h2>
+
+<div class="display">
+  <div class="chart" *ngIf="isRenderChart">
+    <canvas baseChart
+      [datasets]="lineChartData"
+      [labels]="lineChartLabels"
+      [options]="lineChartOptions"
+      [colors]="lineChartColors"
+      [legend]="lineChartLegend"
+      [chartType]="lineChartType"
+      >
+    </canvas>
+  </div>
+</div>

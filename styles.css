@@ -1,0 +1,59 @@
+/* Super quick styles in CSS, should add reset, switch to Sass/SCSS, etc.  */
+
+body {
+  background-color: #19181E; /* black */
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.625;
+  color: #A0A0B6; /* gray */
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 4em;
+  margin-bottom: 0.125em;
+  line-height: 1.25;
+  font-weight: 300;
+  color: white;
+}
+
+h2 {
+  font-size: 1.125em;
+  margin-bottom: 4em;
+  line-height: 1.25;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1875em;
+  color: #53DBD0; /* teal */
+}
+
+.loading-space {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loading-space h2 {
+  color: #A0A0B6; /* gray */
+  opacity: 0.375;
+}
+
+.display {
+  display: inline-block;
+  width: 50em;
+  max-width: 100%;
+  padding: 2.25em 1.75em 1.25em;
+  margin-bottom: 2em;
+  border: 1px solid #296b66;
+  box-shadow: 0 0 8em 0 #296b66;
+}
+.display .chart {
+  height: 26em;
+}
