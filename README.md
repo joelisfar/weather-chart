@@ -5,7 +5,7 @@ This project began with the [Angular QuickStart seed](https://github.com/angular
 
 #### *Notes on the ‘Weather Chart’ Sample Project*
 
-*This is a sample project that should not be seen as a fully completed or production-ready. A few features are missing and there are at least a handful of things that could be done to improve the code.*
+*This is a sample project that should not be seen as finalized or production-ready. A few features are missing and there are at least a handful of things that could be done to improve the code.*
 
 You’ll know your setup is right when you see this after running `npm start`:
 
